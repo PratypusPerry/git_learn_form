@@ -1,0 +1,108 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    box-sizing: content-box;
+}
+html{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+   
+    color: rgb(0, 128, 255);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    position: top;
+    border-radius: 12px;
+    
+    
+}
+
+section{
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 128, 255);
+}
+
+.me1{
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 128, 255);
+}
+hr{
+    border-radius: 12px;
+    background-color: rgb(0, 128, 255);
+    border:0 solid ;
+}
+h5{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 128, 255);
+}
+#boo010{
+    color: rgb(0, 128, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    width: max-content;
+    height: min-content;
+    border-color: rgb(255, 0, 85);
+    border-collapse: collapse;
+    border-style: hidden;
+}
+fieldset{
+    margin:20px;
+    padding:0 10px 10px;
+    border:0 solid ;
+    border-radius:12px;
+    box-shadow:0 0 0 ;
+    padding-top:10px;
+}
+input[type="text"],input[type="Number"],input[type="email"],input[type="date"],textarea{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 5px;
+    width: 500px;
+    color: rgb(0, 128, 255);
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    
+}
+footer{
+    position: fixed, bottom;
+    background-color: rgb(0, 128, 255);
+    height: 20px;
+}
+a:link{
+    color: azure;
+}
+a:visited{
+    color: azure;
+}
+a:hover{
+    color: rgb(0, 128, 255);
+    background-color: rgb(255, 255, 255);
+}
+input[type="submit"]{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 128, 255);
+    border-color: rgb(255, 255, 255);
+    width: 500px;
+}
+input[type="submit"]:hover{
+    color: rgb(0, 128, 255);
+    background-color: rgb(255, 255, 255);
+}
+select{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 128, 255);
+    border-color: black;
+}
+select:hover{
+    color: rgb(0, 128, 255);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 128, 255);
+}
